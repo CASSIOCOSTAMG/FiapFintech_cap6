@@ -1,0 +1,17 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    color: #fff;
+    margin: 0;
+}
+
+.welcome-message {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.container {
+    flex: 1;
+}

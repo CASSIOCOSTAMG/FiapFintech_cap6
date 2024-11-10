@@ -1,0 +1,76 @@
+/* Estilo para o Header */
+.header-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff; /* Fundo branco */
+    padding: 10px 0;
+    z-index: 1000;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px; /* Espaço entre os links */
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-link {
+    color: #000000; /* Texto preto */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #666666; /* Cor ao passar o cursor */
+}
+
+/* Estilo para o Footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto preto */
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+}
+
+/* Estilo do conteúdo principal */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 80px auto 60px auto; /* Ajuste de margem para header e footer */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #4A90E2, #8A2BE2);
+    font-family: Arial, sans-serif;
+    padding-top: 60px; /* Espaço para o header */
+    padding-bottom: 40px; /* Espaço para o footer */
+}
